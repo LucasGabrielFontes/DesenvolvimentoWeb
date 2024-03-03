@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+            var anoNasc = window.prompt("Digite o seu ano de nascimento:");
+            var anoAtual = window.prompt("Digite o ano atual:");
+
+            while (anoAtual < anoNasc) {
+                anoAtual = window.prompt("Ano inválido! Tente novamente:");
+            }
+
+            var idade = anoAtual - anoNasc;
+            window.alert("Você tem " + idade + " anos.");
+        </script>
+    </body>
+</html>

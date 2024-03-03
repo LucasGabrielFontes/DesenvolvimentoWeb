@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <script>
+
+            var n1 = parseInt(window.prompt("Digite o primeiro número:"));
+
+            var operacao = window.prompt("Digite a operação a ser realizada:");
+
+            while (operacao != '+' && operacao != '-' && operacao != '*' && operacao != '/') {
+                operacao = window.prompt("Operação inválida! Tente novamente:");
+            }
+
+            var n2 = parseInt(window.prompt("Digite o segundo número:"));
+
+            var resultado = 0;
+
+            switch (operacao) {
+
+                case '+':
+                    resultado = n1 + n2;
+                break;
+
+                case '-':
+                    resultado = n1 - n2;
+                break;
+
+                case '*': 
+                    resultado = n1 * n2;
+                break;
+
+                case '/':
+                    resultado = n1/n2;
+                break;
+
+            }
+
+            window.alert(n1 + " " + operacao + " " + n2 + " = " + resultado);
+        </script>
+    </body>
+</html>
