@@ -1,3 +1,6 @@
+# Esse projeto consiste em uma automatização de um trabalho que, basicamente, precisava ser feito por mim repetidas vezes.
+# Em síntese, o código mapeia todo o arquivo docs e aplica a quebra de linha onde há um final de parágrafo e substitue o link de uma imagem pela própria imagem.
+
 import os.path
 
 from google.auth.transport.requests import Request 

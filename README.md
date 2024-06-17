@@ -1,2 +1,2 @@
 # DesenvolvimentoWeb
- Estudos de JavaScript, HTML e CSS.
+ Estudos de JavaScript, Python, HTML e CSS.
